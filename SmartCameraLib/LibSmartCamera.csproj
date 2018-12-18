@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{31F0B739-0BAF-40CF-8F3B-AF4DDE92DADA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LibSmartCamera</RootNamespace>
+    <AssemblyName>LibSmartCamera</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\SmartWatcher\code\CS_SmartWatcher_Centre_V3.0.0\packages\Newtonsoft.Json.12.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLiteDatabaseLib">
+      <HintPath>..\..\..\SmartWatcher\code\Cs_SmartWatcherSingle\SmartWatcherSingleV310\SQLiteDatabaseLib\bin\Release\SQLiteDatabaseLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="capturer\DHCapturer64.cs" />
+    <Compile Include="capturer\DHCapturer32.cs" />
+    <Compile Include="capturer\HKCapturer64.cs" />
+    <Compile Include="capturer\WiscomNVSCapturer.cs" />
+    <Compile Include="core\DHBase64.cs" />
+    <Compile Include="core\DHCapturerBase64.cs" />
+    <Compile Include="core\DHCapturerBase32.cs" />
+    <Compile Include="capturer\HKCapturer32.cs" />
+    <Compile Include="core\HKBase64.cs" />
+    <Compile Include="core\HKCapturerBase64.cs" />
+    <Compile Include="core\HKCapturerBase32.cs" />
+    <Compile Include="core\DHBase32.cs" />
+    <Compile Include="core\HKBase32.cs" />
+    <Compile Include="core\WiscomNVSBase.cs" />
+    <Compile Include="entity\CameraBase.cs" />
+    <Compile Include="entity\CameraEntity.cs" />
+    <Compile Include="impl\ICameraPlay.cs" />
+    <Compile Include="player\DHPlayer64.cs" />
+    <Compile Include="player\DHPlayer32.cs" />
+    <Compile Include="player\HKPlayer64.cs" />
+    <Compile Include="player\HKPlayer32.cs" />
+    <Compile Include="player\WiscomNVSPlayer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="readme.cs" />
+    <Compile Include="sdk\dhsdk\NetSDK32.cs" />
+    <Compile Include="sdk\dhsdk\NetSDK64.cs" />
+    <Compile Include="sdk\dhsdk\NetSDKStruct32.cs" />
+    <Compile Include="sdk\dhsdk\NetSDKStruct64.cs" />
+    <Compile Include="sdk\dhsdk\OriginalSDK32.cs" />
+    <Compile Include="sdk\dhsdk\OriginalSDK64.cs" />
+    <Compile Include="sdk\hksdk\HKCHCNetSDK32.cs" />
+    <Compile Include="sdk\hksdk\HKCHCNetSDK64.cs" />
+    <Compile Include="sdk\wiscomsdk\WiscomNVSSDK.cs" />
+    <Compile Include="utils\CameraUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

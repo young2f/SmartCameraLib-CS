@@ -1,0 +1,14 @@
+G:\MyProject\MySDK\SmartCameraLib\LibTest\bin\Debug\LibTest.exe
+G:\MyProject\MySDK\SmartCameraLib\LibTest\bin\Debug\LibTest.pdb
+G:\MyProject\MySDK\SmartCameraLib\LibTest\obj\Debug\LibTest.csprojResolveAssemblyReference.cache
+G:\MyProject\MySDK\SmartCameraLib\LibTest\obj\Debug\LibTest.Form1.resources
+G:\MyProject\MySDK\SmartCameraLib\LibTest\obj\Debug\LibTest.Properties.Resources.resources
+G:\MyProject\MySDK\SmartCameraLib\LibTest\obj\Debug\LibTest.csproj.GenerateResource.Cache
+G:\MyProject\MySDK\SmartCameraLib\LibTest\obj\Debug\LibTest.csproj.CoreCompileInputs.cache
+G:\MyProject\MySDK\SmartCameraLib\LibTest\obj\Debug\LibTest.exe
+G:\MyProject\MySDK\SmartCameraLib\LibTest\obj\Debug\LibTest.pdb
+G:\MyProject\MySDK\SmartCameraLib\LibTest\bin\Debug\SmartCameraLib.dll
+G:\MyProject\MySDK\SmartCameraLib\LibTest\bin\Debug\SmartCameraLib.pdb
+G:\MyProject\MySDK\SmartCameraLib\LibTest\bin\Debug\LibTest.exe.config
+G:\MyProject\MySDK\SmartCameraLib\LibTest\bin\Debug\log4net.dll
+G:\MyProject\MySDK\SmartCameraLib\LibTest\bin\Debug\log4net.xml

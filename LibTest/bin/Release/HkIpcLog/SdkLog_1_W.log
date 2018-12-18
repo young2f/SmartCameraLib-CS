@@ -1,0 +1,95 @@
+[2018-11-27 22:22:29.626][INF] The COM:Core ver is 5.3.2.15, 2017_11_22. Async:1.
+[2018-11-27 22:22:29.626][INF] This hcnetsdk ver is 5.3.2.15 Ver 2017_11_22.
+[2018-11-27 22:22:29.627][INF] The COM:Core ver is 5.3.2.15, 2017_11_22. Async:1.
+[2018-11-27 22:22:29.627][INF] This hcnetsdk ver is 5.3.2.15 Ver 2017_11_22.
+[2018-11-27 22:22:29.630][INF] login dev 192.168.1.17:8000.
+[2018-11-27 22:22:29.662][INF] Private connect 192.168.1.17:8000 sock=2672 this=0x14d61ed4 cmd=0x10000 port=63688
+[2018-11-27 22:22:29.662][INF] LogonDev1 in[192.168.1.17:8000]
+[2018-11-27 22:22:29.808][DBG] load[G:\MyProject\MySDK\SmartCameraLib\LibTest\bin\Release\hksdk32\HCNetSDKCom/HCPreview.dll] succ
+[2018-11-27 22:22:29.808][INF] AbilityAnalyze---Init-- start
+[2018-11-27 22:22:29.853][INF] The COM:Preview ver is 5.3.2.15, 2017_11_22.
+[2018-11-27 22:22:29.854][INF] ID-IP-CHAN[0-192.168.1.17-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xffff]
+[2018-11-27 22:22:29.906][INF] GlobalCtrl load [G:\MyProject\MySDK\SmartCameraLib\LibTest\bin\Release\hksdk32\PlayCtrl.dll] with sdk path success and get handle[0x1f430000]
+[2018-11-27 22:22:29.906][DBG] ID-IP-CHAN[0-192.168.1.17-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.3.3.42]
+[2018-11-27 22:22:29.910][INF] Private connect 192.168.1.17:8000 sock=2852 this=0x14d61ed4 cmd=0x30000 port=63690
+[2018-11-27 22:22:29.927][INF] ID-IP-CHAN[0-192.168.1.17-1] [CPreviewPlayer::OpenPlayer] open player[14e5a1d4] success
+[2018-11-27 22:22:29.927][DBG] ID-IP-CHAN[0-192.168.1.17-1] RTP Format
+[2018-11-27 22:22:29.927][DBG] ID-IP-CHAN[0-192.168.1.17-1] [CPreviewSession::Start] SUCC
+[2018-11-27 22:22:29.928][INF] login dev 192.168.1.17:8000.
+[2018-11-27 22:22:29.941][INF] Private connect 192.168.1.17:8000 sock=2916 this=0x14d62470 cmd=0x10000 port=63692
+[2018-11-27 22:22:29.941][INF] LogonDev1 in[192.168.1.17:8000]
+[2018-11-27 22:22:29.975][INF] ID-IP-CHAN[1-192.168.1.17-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xffff]
+[2018-11-27 22:22:29.975][DBG] ID-IP-CHAN[1-192.168.1.17-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.3.3.42]
+[2018-11-27 22:22:29.981][INF] Private connect 192.168.1.17:8000 sock=2916 this=0x14d62470 cmd=0x30000 port=63693
+[2018-11-27 22:22:29.992][INF] ID-IP-CHAN[1-192.168.1.17-1] [CPreviewPlayer::OpenPlayer] open player[14e5a200] success
+[2018-11-27 22:22:29.993][DBG] ID-IP-CHAN[1-192.168.1.17-1] RTP Format
+[2018-11-27 22:22:29.993][DBG] ID-IP-CHAN[1-192.168.1.17-1] [CPreviewSession::Start] SUCC
+[2018-11-27 22:22:36.005][INF] The COM:Core ver is 5.3.2.15, 2017_11_22. Async:1.
+[2018-11-27 22:22:36.005][INF] This hcnetsdk ver is 5.3.2.15 Ver 2017_11_22.
+[2018-11-27 22:22:36.005][INF] login dev 192.168.1.17:8000.
+[2018-11-27 22:22:36.006][INF] The COM:Core ver is 5.3.2.15, 2017_11_22. Async:1.
+[2018-11-27 22:22:36.006][INF] This hcnetsdk ver is 5.3.2.15 Ver 2017_11_22.
+[2018-11-27 22:22:36.008][INF] Private connect 192.168.1.17:8000 sock=3220 this=0x14d62a0c cmd=0x10000 port=63697
+[2018-11-27 22:22:36.008][INF] LogonDev1 in[192.168.1.17:8000]
+[2018-11-27 22:22:36.044][INF] ID-IP-CHAN[2-192.168.1.17-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xffff]
+[2018-11-27 22:22:36.045][DBG] ID-IP-CHAN[2-192.168.1.17-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.3.3.42]
+[2018-11-27 22:22:36.048][INF] Private connect 192.168.1.17:8000 sock=3220 this=0x14d62a0c cmd=0x30000 port=63698
+[2018-11-27 22:22:36.061][INF] ID-IP-CHAN[2-192.168.1.17-1] [CPreviewPlayer::OpenPlayer] open player[14e5a22c] success
+[2018-11-27 22:22:36.061][DBG] ID-IP-CHAN[2-192.168.1.17-1] RTP Format
+[2018-11-27 22:22:36.061][DBG] ID-IP-CHAN[2-192.168.1.17-1] [CPreviewSession::Start] SUCC
+[2018-11-27 22:22:36.061][INF] login dev 192.168.1.17:8000.
+[2018-11-27 22:22:36.066][INF] Private connect 192.168.1.17:8000 sock=3236 this=0x14d62fa8 cmd=0x10000 port=63699
+[2018-11-27 22:22:36.066][INF] LogonDev1 in[192.168.1.17:8000]
+[2018-11-27 22:22:36.131][INF] ID-IP-CHAN[3-192.168.1.17-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xffff]
+[2018-11-27 22:22:36.131][DBG] ID-IP-CHAN[3-192.168.1.17-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.3.3.42]
+[2018-11-27 22:22:36.146][INF] Private connect 192.168.1.17:8000 sock=3236 this=0x14d62fa8 cmd=0x30000 port=63700
+[2018-11-27 22:22:36.174][INF] StopSendThread threadHandle:0
+[2018-11-27 22:22:36.174][ERR] ID-IP-CHAN[3-192.168.1.17-1] [CGetTCPStream::LinkToDvr] struOut.dwDevState[0] CommandThread callback exception
+[2018-11-27 22:22:36.250][INF] login dev 192.168.1.17:8000.
+[2018-11-27 22:22:36.254][INF] Private connect 192.168.1.17:8000 sock=3252 this=0x14d62fa8 cmd=0x10000 port=63701
+[2018-11-27 22:22:36.254][INF] LogonDev1 in[192.168.1.17:8000]
+[2018-11-27 22:22:36.294][INF] ID-IP-CHAN[4-192.168.1.17-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xffff]
+[2018-11-27 22:22:36.294][DBG] ID-IP-CHAN[4-192.168.1.17-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.3.3.42]
+[2018-11-27 22:22:36.296][INF] Private connect 192.168.1.17:8000 sock=3252 this=0x14d62fa8 cmd=0x30000 port=63702
+[2018-11-27 22:22:36.310][INF] StopSendThread threadHandle:0
+[2018-11-27 22:22:36.310][ERR] ID-IP-CHAN[4-192.168.1.17-1] [CGetTCPStream::LinkToDvr] struOut.dwDevState[0] CommandThread callback exception
+[2018-11-27 22:22:36.310][INF] login dev 192.168.1.17:8000.
+[2018-11-27 22:22:36.324][INF] Private connect 192.168.1.17:8000 sock=3236 this=0x14d62fa8 cmd=0x10000 port=63703
+[2018-11-27 22:22:36.324][INF] LogonDev1 in[192.168.1.17:8000]
+[2018-11-27 22:22:36.357][INF] ID-IP-CHAN[5-192.168.1.17-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xffff]
+[2018-11-27 22:22:36.357][DBG] ID-IP-CHAN[5-192.168.1.17-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.3.3.42]
+[2018-11-27 22:22:36.371][INF] Private connect 192.168.1.17:8000 sock=3236 this=0x14d62fa8 cmd=0x30000 port=63704
+[2018-11-27 22:22:36.377][INF] StopSendThread threadHandle:0
+[2018-11-27 22:22:36.377][ERR] ID-IP-CHAN[5-192.168.1.17-1] [CGetTCPStream::LinkToDvr] struOut.dwDevState[18] CommandThread callback exception
+[2018-11-27 22:22:41.007][INF] login dev 192.168.1.17:8000.
+[2018-11-27 22:22:41.011][INF] Private connect 192.168.1.17:8000 sock=3304 this=0x14d62fa8 cmd=0x10000 port=63705
+[2018-11-27 22:22:41.011][INF] LogonDev1 in[192.168.1.17:8000]
+[2018-11-27 22:22:41.042][INF] ID-IP-CHAN[6-192.168.1.17-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xffff]
+[2018-11-27 22:22:41.042][DBG] ID-IP-CHAN[6-192.168.1.17-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.3.3.42]
+[2018-11-27 22:22:41.044][INF] Private connect 192.168.1.17:8000 sock=3304 this=0x14d62fa8 cmd=0x30000 port=63706
+[2018-11-27 22:22:41.050][INF] StopSendThread threadHandle:0
+[2018-11-27 22:22:41.050][ERR] ID-IP-CHAN[6-192.168.1.17-1] [CGetTCPStream::LinkToDvr] struOut.dwDevState[18] CommandThread callback exception
+[2018-11-27 22:22:41.051][INF] login dev 192.168.1.17:8000.
+[2018-11-27 22:22:41.055][INF] Private connect 192.168.1.17:8000 sock=3292 this=0x14d62fa8 cmd=0x10000 port=63707
+[2018-11-27 22:22:41.055][INF] LogonDev1 in[192.168.1.17:8000]
+[2018-11-27 22:22:41.097][INF] ID-IP-CHAN[7-192.168.1.17-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xffff]
+[2018-11-27 22:22:41.097][DBG] ID-IP-CHAN[7-192.168.1.17-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.3.3.42]
+[2018-11-27 22:22:41.101][INF] Private connect 192.168.1.17:8000 sock=3292 this=0x14d62fa8 cmd=0x30000 port=63709
+[2018-11-27 22:22:41.115][INF] StopSendThread threadHandle:0
+[2018-11-27 22:22:41.115][ERR] ID-IP-CHAN[7-192.168.1.17-1] [CGetTCPStream::LinkToDvr] struOut.dwDevState[0] CommandThread callback exception
+[2018-11-27 22:22:41.115][INF] login dev 192.168.1.17:8000.
+[2018-11-27 22:22:41.118][INF] Private connect 192.168.1.17:8000 sock=3224 this=0x14d62fa8 cmd=0x10000 port=63710
+[2018-11-27 22:22:41.118][INF] LogonDev1 in[192.168.1.17:8000]
+[2018-11-27 22:22:41.145][INF] ID-IP-CHAN[8-192.168.1.17-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xffff]
+[2018-11-27 22:22:41.145][DBG] ID-IP-CHAN[8-192.168.1.17-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.3.3.42]
+[2018-11-27 22:22:41.158][INF] Private connect 192.168.1.17:8000 sock=3224 this=0x14d62fa8 cmd=0x30000 port=63711
+[2018-11-27 22:22:41.165][INF] StopSendThread threadHandle:0
+[2018-11-27 22:22:41.165][ERR] ID-IP-CHAN[8-192.168.1.17-1] [CGetTCPStream::LinkToDvr] struOut.dwDevState[0] CommandThread callback exception
+[2018-11-27 22:22:41.165][INF] login dev 192.168.1.17:8000.
+[2018-11-27 22:22:41.167][INF] Private connect 192.168.1.17:8000 sock=3324 this=0x14d62fa8 cmd=0x10000 port=63712
+[2018-11-27 22:22:41.167][INF] LogonDev1 in[192.168.1.17:8000]
+[2018-11-27 22:22:41.214][INF] ID-IP-CHAN[9-192.168.1.17-1] [CPreviewSession::AdjustProtoType] StreamMode[0], StreamProtocol[0xffff]
+[2018-11-27 22:22:41.214][DBG] ID-IP-CHAN[9-192.168.1.17-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.3.3.42]
+[2018-11-27 22:22:41.228][INF] Private connect 192.168.1.17:8000 sock=3324 this=0x14d62fa8 cmd=0x30000 port=63713
+[2018-11-27 22:22:41.239][INF] StopSendThread threadHandle:0
+[2018-11-27 22:22:41.239][ERR] ID-IP-CHAN[9-192.168.1.17-1] [CGetTCPStream::LinkToDvr] struOut.dwDevState[18] CommandThread callback exception

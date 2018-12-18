@@ -1,0 +1,15 @@
+G:\MyProject\MySDK\SmartCameraLib\SmartCameraLib\obj\Release\SmartCameraLib.csprojResolveAssemblyReference.cache
+G:\MyProject\MySDK\SmartCameraLib\SmartCameraLib\obj\Release\SmartCameraLib.csproj.CoreCompileInputs.cache
+G:\MyProject\MySDK\SmartCameraLib\SmartCameraLib\bin\Release\SmartCameraLib.dll
+G:\MyProject\MySDK\SmartCameraLib\SmartCameraLib\bin\Release\SmartCameraLib.pdb
+G:\MyProject\MySDK\SmartCameraLib\SmartCameraLib\bin\Release\LibCommon.dll
+G:\MyProject\MySDK\SmartCameraLib\SmartCameraLib\bin\Release\log4net.dll
+G:\MyProject\MySDK\SmartCameraLib\SmartCameraLib\bin\Release\Newtonsoft.Json.dll
+G:\MyProject\MySDK\SmartCameraLib\SmartCameraLib\bin\Release\LibCommon.pdb
+G:\MyProject\MySDK\SmartCameraLib\SmartCameraLib\bin\Release\LibCommon.dll.config
+G:\MyProject\MySDK\SmartCameraLib\SmartCameraLib\bin\Release\log4net.xml
+G:\MyProject\MySDK\SmartCameraLib\SmartCameraLib\bin\Release\Newtonsoft.Json.xml
+G:\MyProject\MySDK\SmartCameraLib\SmartCameraLib\obj\Release\SmartCameraLib.dll
+G:\MyProject\MySDK\SmartCameraLib\SmartCameraLib\obj\Release\SmartCameraLib.pdb
+G:\MyProject\MySDK\SmartCameraLib\SmartCameraLib\bin\Release\SmartCameraLib.dll.config
+G:\MyProject\MySDK\SmartCameraLib\SmartCameraLib\bin\Release\Newtonsoft.Json.pdb
